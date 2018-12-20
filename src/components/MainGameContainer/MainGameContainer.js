@@ -52,11 +52,7 @@ class MainGameContainer extends Component {
 					<div className="text-right col-6">{this.state.message} </div>
 					<div className="text-left col-6">Score: {this.state.score} | Top Score: {this.state.topScore}</div>
 				</div>
-				{/* 				<div className="gameScores text-center">
-					<p>Score: {this.state.score} | Top Score: {this.state.topScore}</p>
-				</div> */}
 				<div className="container">
-
 					<div className="row">
 						{this.state.images.map(image => (
 							<MemoryCard
@@ -69,7 +65,6 @@ class MainGameContainer extends Component {
 							/>
 						))}
 					</div>
-
 				</div>
 			</div>
 		);
